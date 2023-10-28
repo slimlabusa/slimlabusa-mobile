@@ -10,7 +10,7 @@ import Slider from "./Slider";
 import Link from "next/link";
 
 function TopSecondSection() {
-  const [weight, setWeight] = useState([40]);
+  const [weight, setWeight] = useState([100]);
   return (
     <div className="bg-[#fff]">
       <div className="bg-[#FAF9FD] px-5 sm:px-20 lg:px-36 py-10 lg:py-16 loss-to">
