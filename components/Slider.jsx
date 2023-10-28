@@ -8,8 +8,8 @@ function Slider(props) {
   return (
     <Range
       step={1}
-      min={0}
-      max={800}
+      min={100}
+      max={400}
       values={props.weight}
       onChange={(newValues) => props.setWeight(newValues)}
       renderTrack={({ props, children }) => (
@@ -22,8 +22,8 @@ function Slider(props) {
             background: getTrackBackground({
               values: weight,
               colors: ["#522671", "#ccc"],
-              min: 0,
-              max: 800,
+              min: 100,
+              max: 400,
             }),
             borderRadius: 3,
           }}
