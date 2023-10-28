@@ -35,7 +35,7 @@ function TopSection() {
       <div className="flex justify-center lg:justify-between w-full text-black py-5">
         <div className="flex flex-col justify-center lg:justify-start w-full lg:w-[60%] text-center lg:text-start sm:pr-5">
           <h1 className="text-primary tracking-widest text-lg font-extrabold mt-2 sm:mt-5 FDA">
-            THE GAME-CHANGING SOLUTION THE FDA STANDS BEHINDS!
+            THE GAME-CHANGING SOLUTION APPROVED BY THE FDA!
           </h1>
           <h1
             style={{ lineHeight: 1.15 }}
